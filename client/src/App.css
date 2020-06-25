@@ -1,0 +1,26 @@
+.App {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+}
+.App a{
+  margin: 15px;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(18, 40, 65);
+}
+.App a:hover{
+  font-weight: bold;
+  color: rgb(80, 21, 21);
+  text-decoration: underline;
+}
+body{
+  font-family: 'Nunito';
+}
+content {
+  padding-bottom: 0;
+}

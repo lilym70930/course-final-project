@@ -1,0 +1,119 @@
+.new_meetup_form{
+    width: 50%;
+    height: 60vh;
+    position: absolute;
+    left: 50%;
+    top: 230px;
+}
+.new_meetup_form input{
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 40%;
+    margin: 5px;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.new_meetup_form textarea{
+    font-family: 'Shadows Into Light', cursive;
+    width: 37%;
+    margin: 5px;
+    height: 5vh;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+}
+.new_meetup_form ::placeholder{
+    color: black;
+}
+.add_meetups_container button{
+    font-family: 'Shadows Into Light', cursive;
+    width: 10vw;
+    height: 7vh;
+    font-size: 28px;
+    border-radius: 10px;
+}
+.add_meetups_container h1{
+    position: relative;
+    left: -35%;
+    bottom: 40px;
+    color:rgb(82, 84, 87);
+    font-size: 40px;
+}
+.headerContainer h2{
+    position: relative;
+    font-size: 35px;
+    bottom: 45px;
+    color: rgb(0, 0, 0);
+    font-weight: normal;
+    background-color: rgba(229, 172, 92, 0.65);
+}
+.headerContainer  :hover{
+   font-weight: bold;
+}
+.imgesContainer{
+    width: 50%;
+    height: 67vh;
+    position: relative;
+    left: 50px;
+}
+#img_1{
+    width: 45%;
+    height: 40vh;
+    background-position: center;   
+    background-size: cover;
+    position: relative;
+    left: 20px;
+   background-image: url("../img_video/add_meetup_3.jpg");
+   float: left;
+   z-index: 0;
+   top: 50px;
+}
+#img_2{
+    width: 45%;
+    height: 30vh;
+    background-position: center;   
+    background-size: cover;
+    position: relative;
+    float: left;
+    top: 60px;
+    left: 20px;
+   background-image: url("../img_video/add_1.jpg");
+   z-index: 0;
+}
+#img_3{
+    width: 45%;
+    height: 30vh;
+    background-position: center;   
+    background-size: cover;
+    position: relative;
+    float: left;
+    top: 50px;
+    left: -50px;
+   background-image: url("../img_video/networking_1.jpg");
+   z-index: 0;
+}
+#img_3:hover{
+    border: 10px rgb(166, 172, 115) solid;
+    z-index: 1;
+}
+#img_2:hover{
+    border: 10px rgb(166, 172, 115) solid;
+    z-index: 1;
+}
+#img_1:hover{
+    border: 10px rgb(166, 172, 115) solid;
+    z-index: 1;
+}
+.add_meetups_container{
+    height: 90%;
+}
+.imgs_form_containers{
+    background-image: url('https://www.duluxdecoratorcentre.co.uk/content/files/uk/images/pages/wallpaper/wallpaper-pattern.png');
+    height: 78vh;
+}
+.headerContainer{
+    height: 0;
+}
+

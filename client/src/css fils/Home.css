@@ -1,0 +1,22 @@
+.top_video_container{
+    height: 90vh;
+    margin-top: 30px;   
+}
+#home_video_id{
+    width: 100%;
+    z-index: 3;
+}
+.headline{
+    height: 16vh;
+    width: 60%;
+    position: relative;top: -58vh;left: 18vw;
+    z-index: 4;
+}
+#hedline_on_video{
+    color: rgb(255, 255, 255);
+    font-size: 130px;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 25px;
+    position: relative;top: -6vh;
+    width: 100%;
+}

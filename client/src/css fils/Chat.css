@@ -1,0 +1,140 @@
+.lets_meet_chat h2{
+    font-size: 28px;
+    padding: 5px 20px;
+    color: white;
+}
+.the_chat{
+    background-image: url('../img_video/chat_wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    height: 94.2%;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    left: 100px;
+    position: relative;
+}
+.lets_meet_chat{
+    max-width: 60%;
+    margin: 30px auto;
+    border-radius: 2px;
+    padding-top: 40px;
+}
+#chat-window{
+    height: 400px;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-weight: bolder;
+    margin: 4px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+#output p{
+    margin: 0 20px;
+    border-bottom: 1px solid #e9e9e9;
+    color: #555;
+}
+#feedback p{
+    color: #aaa;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+.the_chat p{
+    font-size: 25px;
+}
+#handel_name {
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(68, 100, 39);
+    font-size: 25px;
+    margin: 4px;
+    font-weight: bold;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    border-radius: 20px;
+    border: 2px white solid;
+    outline: none;
+}
+#handel_name:hover{
+    border: 4px rgb(125, 196, 59) solid;
+}
+#write_message{
+    font-family: 'Shadows Into Light', cursive;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgb(68, 100, 39);
+    font-size: 25px;
+    margin: 4px;
+    font-weight: bold;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    border-radius: 20px;
+    border: 2px white solid;
+    outline: none;
+}
+#write_message:hover{
+    border: 4px rgb(125, 196, 59) solid;
+}
+::placeholder{
+    color: black;
+    font-size: 25px;
+}
+label{
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+}
+.the_chat h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    color: white;
+}
+.lets_meet_chat input{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background: #eee;
+    border: 0;
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    font-family: Nunito;
+    font-size: 16px;
+    color:black;
+}
+#send{ 
+    font-family: 'Shadows Into Light', cursive;
+    width: 20%;
+    height: 7vh;
+    font-size: 28px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border: 2px white solid;
+    outline: none;
+}
+#send:hover{
+    border: 4px rgb(125, 196, 59) solid;
+}
+#typing_div{
+    color: rgb(5, 97, 5);
+    font-size: 23px
+}
+#name_span{
+    color:rgb(24, 24, 116);
+}
+
+.chatContainer h1{
+    color: rgb(26, 29, 75);
+    right: 38%;
+    position: relative;
+    font-size: 45px;
+    margin: 0;
+}
+.chatContainer{
+    height: 100%;
+    width: 100%;
+    padding-bottom: 0;
+}
